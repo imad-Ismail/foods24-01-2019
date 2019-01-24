@@ -1,0 +1,29 @@
+.formDiv{
+    margin-top: 35%;
+}
+
+.edit-product-form-group{
+    font-size: 20px;
+    border: none;
+    border-bottom: solid #ef8829 !important;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.knop{
+    text-align: center;
+    background-color: #ef8829;
+    margin-top: 3%;
+    padding: 3%;
+    width: 50%;
+    margin-left: 23%;
+    font-size: 20px;
+}
+
+section{
+    margin-left: 10%;
+    width: 80%;
+}

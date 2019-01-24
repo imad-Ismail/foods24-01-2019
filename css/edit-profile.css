@@ -1,0 +1,42 @@
+h1{
+    margin-top: 30%;
+    color: #ef8829;
+    text-align: center;
+}
+
+label{
+   outline: none;
+    font-size: 20px;
+    border: none;
+    width: 80%;
+}
+
+section{
+    margin-left: 7%;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid #ef8829 !important;
+    width: 80%;
+    padding: 2%;
+}
+
+input{
+    font-size: 20px;
+    color: black;
+    /* -webkit-appearance: none;
+    border: none; */
+}
+
+.edit-profile-button{
+    background-color: #ef8829;
+    color: white;
+    padding: 2%;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 35%;
+    -moz-border-radius-topright: 2em;
+    -moz-border-radius-topleft: 2em;
+    -webkit-appearance: none;
+    border: none;
+    -webkit-border-radius: 24px 0;
+}

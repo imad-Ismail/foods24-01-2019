@@ -29,22 +29,17 @@ include("db-connection.php");
                 <div class="navbar-hamburger-menu animated bounceInUp">
                     <span onclick="openNav()">&#9776;</span>
                 </div>
-                
             </div>
-    <div class=products-top-bar>
-        <form id="filteren" name="filteren" method="get" action="">
-                <label for="filter">filter</label>
-                <select name="filter" id="filter">
-                    <option value="alles">alles</option>
-                    <option value="groenten">groenten</option>
-                    <option value="fruit">fruit</option>
-                </select>
-        </form>
-        <div id="products-input-container">
-            <input type="text" id="products-input" onkeyup="keyupFunction()" placeholder="zoek u product">
-        </div>
-    </div>
+
     <h1>producten</h1>
+
+<div id="navblock">
+                <?php
+            include "filter menu.php";
+                 ?> 
+                 </div>
+
+
     <div id="products-container">
             <?php
             if(!isset($_SESSION["autoLocation"])){
@@ -112,6 +107,13 @@ include("db-connection.php");
             ?>
 
     </div>
+    <script type="text/javascript">
+    $(document).on('click', '.option-btn', function (){
+    $(this).toggleClass('open');
+    $('.control-center').toggleClass('open');
+    });
+    </script>
+
     <script type="text/javascript" src="js/ajax.js"></script>
     <script type="text/javascript" src="js/product.js"></script>
     <script type="text/javascript">

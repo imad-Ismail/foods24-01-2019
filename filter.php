@@ -117,6 +117,17 @@ function distance(
             };
 ?>
 </div>
+<script type="text/javascript">
+        // $(document).ready(function filter(){
+            var cards = $("#products-container .card");
+    var temp = cards.sort(function(a,b){
+      return parseInt($(a).attr("afstand")) - parseInt($(b).attr("afstand"));
+    });
+    $("#products-container").html(temp);
+        // });
+
+    </script>
+
     <script type="text/javascript" src="js/product.js"></script>
     <script type="text/javascript" src="js/ajax.js"></script>
 </body>

@@ -20,23 +20,21 @@
 }
 
 #products-input{
-    display: flex;
+display: flex;
     flex: 1;
     flex-direction: row;
     outline: none;
     justify-content: center;
-    width: 90%;
-    height: 50px;
-    border-bottom: solid #ef8829 !important;
+    /* width: 59%; */
+    /* height: 17px; */
+    /* border-bottom: solid #000000 !important; */
     border: none;
-    padding: 5%;
-    font-size: 20px;
-    border: solid red;
+    /* padding: 5%; */
+    /* font-size: 20px; */
+    border: none;
+    border-radius: 20px;
+    box-sizing: content-box;
 }
-
-
-
-
 
 #products-container{
     text-align: center;
@@ -89,7 +87,7 @@ a{
 }
 
 h1 {
-	margin-top: 15%;
+	margin-top: 25%;
 	color: #ef8829;
 	text-align: center;
 }

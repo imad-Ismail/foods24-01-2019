@@ -62,7 +62,7 @@
                 // $htmlOutput .= '<p>'. '<a href="tel:' . $row['phone_number'] . '"><button>'. '<img src="images/smartphone.png" height="40" width="40">' . '</button>' . '</a>' . '</p>';
                 // }
                 $htmlOutput .= '<p>'. '<a href="tel:' . $row['phone_number'] . '"><button>'. '<img src="images/smartphone.png" height="40" width="40">' . '</button>' . '</a>' . '</p>';
-                $htmlOutput .= '<p>'. '<button>'. '<img src="images/email.png" height="40" width="40">' . '</button>' . '</p>';
+               $htmlOutput .= '<p>'. '<a href="mailto:' . $row['email'] . '"><button>' . '<img src="images/email.png" height="40" width="40">' . '</button>' . '</p>';
                 $htmlOutput .= '<p>'. '<button>'. '<img src="images/handshake.png" height="50" width="35">' . '</button>' . '</a>' . '</p>';
                 $htmlOutput .= '</div>';
 echo $htmlOutput;

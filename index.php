@@ -37,9 +37,10 @@
             <div class="landingspage-searchfield-container">
                 <div class="landingspage-title-and-searchfield">
                     <h2>Zoek op postcode:</h2>
-                    <input id="query" type="text" name="postalcode" onkeypress="if (event.keyCode == 13) zoeknu('index');" placeholder="Search.." autocomplete="off">
+                    <input id="query" type="text" name="postalcode" onkeydown= "zoeknu('index');" placeholder="Search.." autocomplete="off">
                     <p class="phid" id="lat">aa</p>
                     <p class="phid" id="lon">sas</p>
+                    <a href="destroy.php">dest</a>
                 </div>   
             </div>           
         </div>

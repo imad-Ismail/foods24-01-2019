@@ -1,15 +1,3 @@
-//=============inbut============
-        $("#products-input").focus(function () {
-            $("#products-cat").hide();
-            $(this).parent().width(100 + "%");
-            // $("#products-input").animate({width:'toggle'},1000);
-            
-        });
-        $("#products-input").focusout(function () {
-            $("#products-cat").show();
-            $(this).parent().width(50 + "%");
-             });
-
 //=============filteren============
 function keyupFunction() {
   var x = document.getElementById("products-input").value;
@@ -39,9 +27,12 @@ $(function(){
 
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
+    document.getElementById('navblock').style.display = 'none'
+
 };
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
+    document.getElementById('navblock').style.display = 'block';
 };
 
 

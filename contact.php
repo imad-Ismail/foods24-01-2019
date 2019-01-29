@@ -33,42 +33,42 @@
         <table width="350px">
         <tr>
          <td valign="top">
-          <label for="first_name">voornaam *</label>
+          <label for="first_name"></label>
          </td>
          <td valign="top">
-          <input  type="text" name="first_name" maxlength="50" size="30">
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="last_name">achternaam *</label>
-         </td>
-         <td valign="top">
-          <input  type="text" name="last_name" maxlength="50" size="30">
+          <input  type="text" name="first_name" maxlength="50" size="30" placeholder="voornaam">
          </td>
         </tr>
         <tr>
          <td valign="top">
-          <label for="email">email Address *</label>
+          <label for="last_name"></label>
          </td>
          <td valign="top">
-          <input  type="text" name="email" maxlength="80" size="30">
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="telephone">telefoonnummer</label>
-         </td>
-         <td valign="top">
-          <input  type="text" name="telephone" maxlength="30" size="30">
+          <input  type="text" name="last_name" maxlength="50" size="30" placeholder="achternaam">
          </td>
         </tr>
         <tr>
          <td valign="top">
-          <label for="comments">bericht *</label>
+          <label for="email"></label>
          </td>
          <td valign="top">
-          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+          <input  type="text" name="email" maxlength="80" size="30" placeholder="email Address">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="telephone"></label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="telephone" maxlength="30" size="30" placeholder="telefoonnummer">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="comments"></label>
+         </td>
+         <td valign="top">
+          <textarea  name="comments" maxlength="1000" cols="25" rows="6" placeholder="bericht"></textarea>
          </td>
         </tr>
         <tr>

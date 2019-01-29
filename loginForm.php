@@ -20,7 +20,7 @@
             $_SESSION['name'] = $getData['firstname'];
             $_SESSION['user_id'] = $getData['user_id'];
             $_SESSION['lat'] = $getData['lat'];
-            $_SESSION['long'] = $getData['lon'];
+            $_SESSION['lon'] = $getData['lon'];
         header('Location: index.php');  
 
     }}else{

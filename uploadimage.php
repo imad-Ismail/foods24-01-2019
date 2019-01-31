@@ -53,6 +53,7 @@ if ($uploadOk == 0) {
         $email = $_SESSION["email"];
         $lat = $_SESSION['lat'];
         $lon = $_SESSION['lon'];
+        $screenname = $_SESSION['screenname'];
         // move_uploaded_file($uploadedFile, $destinationFilename);
         correctImageOrientation($target_file);
 
@@ -64,8 +65,8 @@ if ($uploadOk == 0) {
 
         if(isset($_SESSION["user_id"])){
         $user_id = $_SESSION["user_id"];
-        $sql = "INSERT INTO product (user_id, title, description , imagelist, expire_date , product_type, phone_number, email, lat, lon)
-        VALUES ('$user_id', '$title', '$description', '$fileName', '$expire_date', '$product_type' ,'$phone_number', '$email', '$lat', '$lon')";
+        $sql = "INSERT INTO product (user_id, title, description , imagelist, expire_date , product_type, phone_number, email, lat, lon , screenname)
+        VALUES ('$user_id', '$title', '$description', '$fileName', '$expire_date', '$product_type' ,'$phone_number', '$email', '$lat', '$lon' , '$screenname')";
 
         $data = $conn->query($sql);
         }

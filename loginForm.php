@@ -21,6 +21,7 @@
             $_SESSION['user_id'] = $getData['user_id'];
             $_SESSION['lat'] = $getData['lat'];
             $_SESSION['lon'] = $getData['lon'];
+            $_SESSION['screenname'] = $getData['screenname'];
         header('Location: index.php');  
 
     }}else{

@@ -36,3 +36,21 @@ body{
   .products-information-info{
     padding: 5%;
   }
+.color {
+color: #ef8829;
+font-size: 30px;
+}
+.uncolor {
+  font-size: 30px;
+  color: #938b83;
+}
+.screemname {
+    display: flex;
+    font-size: 20px;
+    padding: 0 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    align-items: center;
+}
